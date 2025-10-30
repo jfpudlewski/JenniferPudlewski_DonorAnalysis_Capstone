@@ -91,20 +91,22 @@ Install R (version 4.2 or higher) and the following libraries:
 install.packages(c("tidyverse", "readxl", "psych", "caret", 
                    "randomForest", "pROC", "ggplot2", "broom"))
 source("Donor_Analysis.R")
-Running the Analysis
+```
+
+### Running the Analysis
 
 Clone or download this repository.
 
 Place your donor dataset in the working directory (DonorData.csv).
 
-Run the script:
+### Run the script:
 
 source("Donor_Analysis.R")
 
 
 All charts, tables, and model outputs will be generated in the working directory.
 
-Future Enhancements
+### Future Enhancements
 
 Add cross-validation and regularization (LASSO/Ridge) for better generalization.
 
@@ -112,7 +114,7 @@ Incorporate demographic and campaign timing data to enhance donor segmentation.
 
 Develop an interactive dashboard using Shiny to visualize donor insights.
 
-References
+## References
 
 Association of Fundraising Professionals. (2023). Code of ethical standards. https://afpglobal.org/ethics
 
