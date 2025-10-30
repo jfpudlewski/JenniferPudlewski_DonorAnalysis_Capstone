@@ -91,3 +91,37 @@ Install R (version 4.2 or higher) and the following libraries:
 install.packages(c("tidyverse", "readxl", "psych", "caret", 
                    "randomForest", "pROC", "ggplot2", "broom"))
 source("Donor_Analysis.R")
+Running the Analysis
+
+Clone or download this repository.
+
+Place your donor dataset in the working directory (DonorData.csv).
+
+Run the script:
+
+source("Donor_Analysis.R")
+
+
+All charts, tables, and model outputs will be generated in the working directory.
+
+Future Enhancements
+
+Add cross-validation and regularization (LASSO/Ridge) for better generalization.
+
+Incorporate demographic and campaign timing data to enhance donor segmentation.
+
+Develop an interactive dashboard using Shiny to visualize donor insights.
+
+References
+
+Association of Fundraising Professionals. (2023). Code of ethical standards. https://afpglobal.org/ethics
+
+Bekkers, R., & Wiepking, P. (2011). A literature review of empirical studies of philanthropy. Nonprofit and Voluntary Sector Quarterly, 40(5), 924–973.
+
+Breeze, B. (2017). The new fundraisers: Who organises charitable giving in contemporary society? Policy Press.
+
+Sargeant, A., & Woodliffe, L. (2007). Building donor loyalty: The antecedents and role of commitment in the context of charity giving. Journal of Nonprofit & Public Sector Marketing, 18(2), 47–68.
+
+Williams, T., & Nguyen, H. (2021). Predictive analytics in donor retention: Modeling engagement for nonprofit sustainability. Nonprofit and Voluntary Sector Quarterly, 50(6), 1254–1272.
+
+Zhang, L., & Ghosh, D. (2020). Logistic regression and decision trees for classification in donor analytics. Journal of Computational Statistics, 28(2), 215–229.*
