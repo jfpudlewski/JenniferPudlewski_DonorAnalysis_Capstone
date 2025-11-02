@@ -1,8 +1,8 @@
 ############################################################
 # Colorado Mesa University Foundation Donor Analytics
 # Predicting Recurring Donor Behavior
-# Author: [Your Name]
-# Date: [Current Date]
+# Author: Jennifer Pudlewski
+# Date: 11/2/25
 ############################################################
 
 #-----------------------------------------------------------
